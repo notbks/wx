@@ -1,0 +1,14 @@
+#headimg img{
+    width: 40px;
+    height: 40px;
+}
+#nickname{
+    text-align: right;
+}
+#table{
+    width: 100%;
+    background-color: aliceblue;
+}
+#table #headimg{
+    width: 40px;
+}

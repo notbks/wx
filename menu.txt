@@ -1,0 +1,22 @@
+﻿{
+     "button":[
+     {    
+          "type":"click",
+          "name":"4399小游戏",
+          "key":"giveAMenu1"
+      },
+      {
+           "name":"更多",
+           "sub_button":[
+           {    
+               "type":"view",
+               "name":"商城",
+               "url":"https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxb1ebabf042f6e8e3&redirect_uri=http://jsu7g5.natappfree.cc/OAuthRedirectUrl.aspx&response_type=code&scope=snsapi_userinfo#wechat_redirect"
+            },
+           {
+               "type":"view",
+               "name":"赞一下我们",
+               "url":"http://niq8m5.natappfree.cc/index.html"
+            }]
+       }]
+ }
