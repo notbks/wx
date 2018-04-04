@@ -4,15 +4,17 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />   
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />  
     <title></title>    
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 <meta name="format-detection" content="telephone=no" />
+
 <link rel="stylesheet" href="css/common.css"/>
 <script src="js/jweixin-1.2.0.js"></script>
 <script src="js/vue.min.js"></script>
-<link rel="stylesheet" href="css/footer.css"/>
 
 </head>
 <body>
@@ -80,16 +82,51 @@
     v
     ~~~<br />
     ~~~<br />
+  ~~~<br />
+    v
+    v
+    ~~~<br />
+    ~~~<br />
+    v
+    ~~~<br />
+    v
+    ~~~<br />
+    ~~~<br />
 
     ~~~<br />
    ~~~<br />
 
-    ~~~<br />   ~~~<br />
+    <span style="word-wrap: break-word !important; box-sizing: border-box !important; ">~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~<br />   ~~~<br /></span>
 
     ~~~<br />   ~~~<br />
 
     ~~~<br />	
-    <div class="footer">
+    <style type="text/css">
+    	#footer img{
+		    top: 0;
+		    width: 50px;
+		    height: 50px;
+		}
+		#footer table{
+		    width: 100%;
+		    height: 55px;
+		}
+		#footer th{
+		    width: 25%;
+		}
+		#footer{
+		    left: 0;  
+		    position: fixed;  
+		    bottom: 0;
+		    width: 100%;
+		    height: 50px;
+		    z-index: 100;
+		    background-color: aliceblue;
+		
+		    padding-top: 0px;
+		}
+    </style>
+    <div id="footer">
         <table>
             <tr>
                 <th><a href="#"><img src="/img/bottom/1.png"/></a></th>
